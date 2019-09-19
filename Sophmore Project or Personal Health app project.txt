@@ -1,0 +1,51 @@
+** PROJECT IDEA - HEALTH RELATED APP** 
+
+	-> BMI Calculator
+	-> Healthy Weight Calculator 
+	-> Goal Calculator
+	-> Calories in vs Out
+	
+	
+	
+		->BMI Calculator
+		Formula: 703 x weight (lbs) / [height (in)]2
+		Details needed from user: Weight in lbs, height in inches 
+		***POSSIBLY Feet&Inches to just inches calculator 
+		
+		-> Healthy Weight Calculator 
+		    A BMI of less than 18.5 means that a person is underweight.
+			A BMI of between 18.5 and 24.9 is ideal.
+			A BMI of between 25 and 29.9 is overweight.
+			A BMI over 30 indicates obesity.
+			
+			*Should be noted that while BMI is a good tool for setting a goal, BMI does NOT include muscle, bone density,
+			water weight, etc. And that while someome may be obese in the BMI scale, it is not a great indicator for "healthiness"
+			
+			
+		-> Goal Calculator
+			Formula: Easy = 1 lb a week
+					 Med = 1.5lb a week	
+					 Hard = 2lbs a week 
+					 ***It is possbile to lose less or more than these goals, but these are the SAFE AND HEALTHY recommended goals
+		
+		
+		-> Calories in vs Out
+			SIMPLE: A user puts in their calories in, no prompts/database on food and calories. They also put calories out
+			ADVANCED: User can put in food and the amount, get a calorie amount based off of a database, and can also put in
+			excercises and time spent for a calories out. 
+			
+			FORMULA: USERS ENTER SEX - WEIGHT in LBS - HEIGHT in Inches - Age in YEARS
+					For men: 66 + (6.2 x weight) + (12.7 x height) - (6.76 x age)
+					For women: 655.1 + (4.35 x weight) + (4.7 x height) - (4.7 x age)
+					
+					BMR (calculated above) is then multiplied by activiy level: 
+						1.2 points for a person who does little to no exercise
+						1.37 points for a slightly active person who does light exercise 1–3 days a week
+						1.55 points for a moderately active person who performs moderate exercise 3–5 days a week
+						1.725 points for a very active person who exercises hard 6–7 days a week
+						1.9 points for an extra active person who either has a physically demanding job or has a particularly challenging exercise routine
+						
+					** THIS CALCULATES PASSIVELY BURNED CALORIES IN A DAY 
+					
+					FINAL FORMULA: Calories in - ((BMR x ACTIVITY LEVEL) + Calories out by excersise) = Calorie deficit / surplus (neg is leading to weight loss)
+

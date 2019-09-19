@@ -1,0 +1,48 @@
+**SUDO CODE**
+
+->BMI Calculator
+
+Formula: 703 x weight (lbs) / [height (in)]2
+
+
+BMI = int (have user input weight in lbs and height in inches)
+
+Weight = int 
+Height = int 
+
+**Possibly have two call boxes, one for feet and one for inches 
+
+Feet = [User input] / 12 = inches 
+inches = [User input] 
+Height = Feet + inches 
+
+
+BMI = 703 x weight/ [height]^2
+
+print "your BMI is " + BMI 
+
+-> Healthy Weight Calculator
+
+Call BMI result 
+
+if BMI <18.5 then print "You are considered underweight! Let them eat cake!" 
+if BMI >18.5 && <24.9 print "Your are considered to be at your normal weight! Keep it up!!" 
+if BMI  >25 && <29.9 print "You are considered slightly overweight, but we still think you're cute!"
+if BMI >30 print "You are considered obese, We believe in you!"
+
+print "While BMI can be used to get a general idea of your healthiness, it should be noted that this formula only takes height and weight!
+			There are MANY other factors that contribute to your overall health; including bone density, water weight, muscle mass, and much more!"
+			
+> Goal Calculator
+
+	Current_Weight = [int user input] 
+	
+	Goal_Weight = [int user input] 
+	
+	End_Weight = Current weight - Goal_Weight
+	
+	Goal = "Would you like to take this easy, modereatlely or hard?" + [Call for user to input with string]
+	
+	If Goal = easy: 
+		Easy_Goal = End_Weight / 
+			
