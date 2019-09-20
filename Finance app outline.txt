@@ -1,0 +1,44 @@
+Well, the finance app that we came up with basically takes a person income each month, 
+calculate how much they need to spend each month for bills, life expenses, etc. Then they get to set their saving goal, 
+they can estimate how much money they need for their goal and when they want to fulfill it. 
+The app will take all of this information and calculate how money they are allow to use for their small interest and how much they need to save each month 
+
+
+---- FINANCE APP OUTLINE ---
+
+--> TAKE USER INCOME PER MONTH IN DOLLARS (ROUND TO WHOLE NUMBER) 
+--> COSTS OF LIVING (BILLS) PER MONTH IN DOLLARS
+	-Rent/House
+	-Cell phone
+	-Food
+	-Utilities
+	-Car
+	-Gas
+	-Other assorted BILLS
+--> PRINT Remaining balance 
+--> ASK WHAT PERCENTAGE THE USER WOULD LIKE TO REMAIN FOR SAVINGS
+--> ASK USER WHAT PERCENTAGE INTEREST WILL BE EARNED ON SAVINGS (Most banks average at about 2.0%APY
+--> ASK USER FOR A SAVINGS GOAL IN DOLLARS
+--> TAKE ABOVE VALUE AND DIVIDE BY NUMBER OF MONTHS TO GET TIME UNTIL GOAL MET
+
+			---OR---
+			
+--> ASK USER FOR A SAVINGS GOAL 
+--> HOW LONG DO THEY WANT TO / CAN SAVE FOR IN MONTHS
+--> OUTPUT HOW LONG IT WILL TAKE THEM TO REACH THE GOAL SAVINGS AMOUNT 
+
+
+
+AmountToSavings = PERCENT
+print AmountToSavings
+# This is how much the user will end up putting in savings per month to their goal
+NewSavings = AmountToSavings * TIME
+print NewSavings
+# This is the end amount of savings WITHOUT interest
+FactorInterest = NewSavings * INTEREST
+print FactorInterest
+WithInterest = NewSavings + FactorInterest
+print WithInterest
+# End amount of savings WITH interest included
+# Completion = GOAL * WithInterest
+print ("After " + str(TIME) + " months, you should have a savings amount of about " + str(WithInterest))
